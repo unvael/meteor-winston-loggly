@@ -1,10 +1,10 @@
 {
   "name": "winston-loggly",
-  "description": "Loggly transport for Winston logging library, packaged for Meteor",
-  "homepage": "https://github.com/tomrogers3/meteor-winston-loggly",
+  "description": "Winston logging library plus loggly and sentry transports, packaged for Meteor",
+  "homepage": "https://github.com/unvael/meteor-winston-loggly",
   "author": "Tom Rogers <tomrogers3@gmail.com>",
   "version": "0.0.3",
-  "git": "https://github.com/tomrogers3/meteor-winston-loggly.git",
+  "git": "https://github.com/unvael/meteor-winston-loggly.git",
   "packages": {
   }
 }

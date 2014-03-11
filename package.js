@@ -5,6 +5,7 @@ Package.describe({
 
 Npm.depends({
   "winston": "0.7.2",
+  "winston-sentry": "0.0.5",
   "winston-loggly": "1.0.0"
 });
 
@@ -13,6 +14,7 @@ Package.on_use(function (api, where) {
 
   if(api.export){
     api.export('Winston');
+    api.export('WinstonSentry');
     api.export('WinstonLoggly');
   }
 });
